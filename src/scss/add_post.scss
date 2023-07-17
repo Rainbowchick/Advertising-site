@@ -1,0 +1,110 @@
+.post {
+  padding: 50px 0;
+  &__title {
+    margin-bottom: 20px;
+  }
+  &__text {
+    margin: 20px 0;
+  }
+  &__label {
+    margin: 0 15px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  &__payment {
+    margin-bottom: 15px;
+  }
+  &__input {
+  width: 300px;
+  height: 40px;
+  padding-left: 20px;
+    outline: none;
+}
+  &__description {
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: bold;
+
+  }
+  &__textarea {
+    resize: none;
+    padding: 20px 0 0 20px;
+  }
+
+  &__price {
+    font-size: 18px
+  }
+  &__category {
+    &-list {
+      margin-bottom: 15px;
+      &:first-child {
+          font-weight: bold;
+      }
+    }
+    &-item {
+      cursor: pointer;
+      font-size: 20px;
+      margin: 10px 0;
+
+    }
+    &-title {
+      font-weight: bold;
+      font-size: 18px;
+      margin: 15px 0;
+    }
+    &-btn {
+      text-align: center;
+      padding: 10px 10px;
+      border: none;
+      color: white;
+      background-color: #7092FE;
+      cursor: pointer;
+      border-radius: 15px;
+      width: 75px;
+      height: 35px;
+      margin: 0 0 15px;
+    }
+  }
+  &__price {
+    margin: 20px 0;
+    font-size: 18px;
+  }
+  &__currently {
+    margin-right: 10px;
+    font-size: 18px;
+
+  }
+  &__select-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  &__select-select {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    &:hover {
+      background-color: #EEFFFF;
+    }
+  }
+
+}
+
+.btn_size {
+  width: 110px;
+  margin-top: 15px;
+
+}
+
+.input_margin {
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

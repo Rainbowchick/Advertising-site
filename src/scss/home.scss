@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+.home {
+  padding: 50px 0;
+  font-family: 'Roboto', sans-serif;
+  &__info {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+    &-icons {
+      display: flex;
+      column-gap: 15px;
+    }
+    &-icon {
+      font-size: 25px;
+      color: black;
+      transition: .3s;
+      &:hover {
+        color: #C1C1C1;
+        transition: .3s;
+      }
+    }
+    &-img {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+    }
+
+  }
+  &__content {
+    display: flex;
+    justify-content: left;
+    column-gap: 15px;
+    flex-wrap: wrap;
+  }
+  &__card {
+    width: calc(25% - (60px / 4));
+    border-radius: 5px;
+
+    padding: 5px 5px 5px 5px;
+    &-cash {
+      display: inline;
+      font-weight: bold;
+    }
+    &-link {
+      text-decoration: none;
+      color: black;
+    }
+    &-label {
+      margin-bottom: 4px;
+    }
+
+    &-description {
+      display: block;
+    }
+
+    &-price {
+      margin-bottom: 4px;
+      font-size: 17px;
+      font-weight: bold;
+      display: inline;
+      margin-right: 5px;
+    }
+    &:hover {
+      transform: translateY(-5px);
+      transition: .3s;
+      box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.5);
+    }
+  }
+  &__img {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+  }
+}

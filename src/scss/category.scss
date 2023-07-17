@@ -1,0 +1,108 @@
+.category {
+  padding: 50px 0;
+
+
+  &__title {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  &__head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  &__choose {
+    width: 300px;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-bottom: 15px;
+  }
+  &__search {
+    position: relative;;
+    margin-bottom: 15px;
+
+  }
+  &__input {
+    width: 500px;
+    height: 50px;
+    padding: 10px;
+
+  }
+  &__icon1 {
+    padding-top: 5px;
+    font-size: 20px;
+  }
+  &__icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 50px;
+  }
+  &__select {
+    width: 200px;
+    height: 40px;
+    padding-left: 15px;
+
+  }
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  &__input1 {
+    width: 150px;
+    height: 30px;
+    padding: 10px;
+  }
+  &__label {
+    display: flex;
+    column-gap: 10px;
+    font-size: 20px;
+  }
+  &__radio {
+    display: flex;
+    column-gap: 10px;
+  }
+  &__sort {
+    display: flex;
+    flex-direction: column;
+  }
+  &__button {
+    padding: 10px;
+    background-color: #7092FE;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    margin-top: 10px;
+  }
+  &__list {
+    display: none;
+    padding: 10px;
+    font-size: 18px;
+    position: absolute;
+    top: 50px;
+    left: 15%;
+    width: 200px;
+    background-color: white;
+    transition: 1s;
+    &_active {
+      display: block;
+      transition: 1s;
+
+
+    }
+  }
+  &__item {
+    margin-bottom: 5px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+}

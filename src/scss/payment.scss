@@ -1,0 +1,36 @@
+.payment {
+  font-family: 'Roboto', sans-serif;
+  padding: 50px 0;
+  &__content {
+
+  }
+  &__form {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+  }
+&__btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  &_disable {
+    display: none;
+  }
+  &:hover {
+    color: #C1C1C1;
+    transition: .3s;
+  }
+}
+  &__title {
+    margin-bottom: 10px;
+  }
+  &__text {
+    font-size: 18px;
+  }
+  &__radio {
+    display: flex;
+    column-gap: 15px;
+  }
+}

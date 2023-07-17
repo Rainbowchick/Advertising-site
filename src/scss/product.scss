@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+.product {
+  font-family: 'Roboto', sans-serif;
+  padding: 50px 0;
+  &__down {
+    display: flex;
+    justify-content: left;
+    &-description {
+      border: 1px solid #aeb1b4;
+      padding: 10px;
+      width: 95%;
+      height: 200px;
+      border-radius: 15px;
+      &-text {
+        margin-bottom: 15px;
+      }
+    }
+  }
+  &__block-certificate {
+    position: relative;
+    border: 1px solid #aeb1b4;
+    padding: 10px;
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+  }
+  &__certificate {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: -350%;
+    left: -270%;
+    &-img {
+      width: 700px;
+      height: 700px;
+    }
+  }
+  &__crumbs {
+    display: flex;
+    column-gap: 5px;
+    font-size: 25px;
+    color: black;
+    margin-bottom: 20px;
+    &-link {
+      text-decoration: none;
+      color: black;
+      &:hover {
+        color: #C1C1C1;
+        transition: .3s;
+      }
+    }
+  }
+  &__btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    &_disable {
+      display: none;
+    }
+    &:hover {
+      color: #C1C1C1;
+      transition: .3s;
+    }
+  }
+  &__textarea {
+    resize: none;
+    padding: 20px 0 0 20px;
+    outline: none;
+    margin-bottom: 15px;
+  }
+  &__content {
+    display: flex;
+    column-gap: 100px;
+    margin-bottom: 10px;
+    &-left {
+      width: 50%;
+    }
+    &-right {
+      border: .2px solid darkgrey;
+      border-radius: 5px;
+      width: 30%;
+      height: 40%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin: 0 auto;
+      padding: 15px;
+      &-item {
+        font-size: 20px;
+        margin: 10px 0;
+      }
+      &-email {
+        display: block;
+        margin-bottom: 10px;
+      }
+      &-btn {
+        padding: 10px 15px;
+        border: none;
+        border-radius: 10px;
+      }
+      &-phone {
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 25px;
+        &-text {
+          padding: 5px;
+          border: 1px solid #aeb1b4;
+          text-decoration: none;
+          font-weight: normal;
+          border-radius: 50px;
+          text-align: center;
+          transition: .3s;
+          &:hover {
+            background-color: #F0F0F0;
+            transition: .3s;
+          }
+        }
+      }
+    }
+    &-user {
+      display: flex;
+      column-gap: 5px;
+      align-items: center;
+      margin: 30px 0;
+    }
+    &-userImage {
+      width: 40px;
+      height: 40px;
+      border-radius: 50px;
+    }
+
+    &-userName {
+      font-size: 18px;
+    }
+    &-image {
+      width: 100%;
+      border-radius: 5px;
+    }
+    &-label {
+      font-size: 30px;
+      margin-bottom: 20px;
+      border: .2px solid darkgrey;
+    }
+    &-description {
+      font-size: 15px;
+      padding: 7px 7px 7px 7px;
+      margin-bottom: 20px;
+    }
+    &-price {
+      font-size: 20px;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+  }
+}
